@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do List</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-950">
+  <h1 class="text-amber-100 text-4xl text-center font-semibold mb-8 mt-4">MY TASKS</h1>
+  <div class="flex items-center justify-center">
+    <div class="bg-gray-900 flex flex-col justify-center p-16 rounded-2xl gap-3 hover:outline-1 hover:outline-gray-500">
+      <div class="flex flex-row space-x-2">
+      <input type="text" id="newTask" placeholder="Enter task to be done" class="bg-gray-950 text-amber-100 w-90 p-2 border-2 border-gray-700 rounded-xl outline-none focus:border-amber-400">
+      <button id="add-btn" class="bg-gray-700 rounded-full w-10 h-10 px-2 text-2xl text-amber-50 hover:bg-gray-600  hover:outline-1 hover:outline-gray-400">+</button>
+      </div>
+      <ul id="tasks" class="text-xl rounded-xl text-gray-400 w-90">
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
