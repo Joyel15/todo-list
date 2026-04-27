@@ -13,8 +13,8 @@ A simple to-do list app built with HTML, Tailwind CSS and JavaScript.
 3. Open `src/index.html` in your browser
 ```
 
-Then:
-```
-git add .
+Then: git add .
 git commit -m "add README"
 git push
+
+```
